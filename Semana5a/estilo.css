@@ -1,0 +1,60 @@
+body {
+    background-color: #000000;
+    margin: 4;
+    padding: 4;
+}
+
+.paisaje {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.sol {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30%;   
+}
+
+.montana {
+    width: 100%;
+    display: block;
+}
+
+.caballo {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 50%;
+}
+
+.texto{
+    position: absolute;
+    font-family: 'roboto', sans-serif;
+    font-size: 55px;
+    color: rgb(1, 92, 230);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    top: 1%;
+    left: 50%;
+}
+
+.texto2 {
+    position: absolute;
+    font-family: 'roboto', sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    top: 60%;
+    right: 50%;
+}
+
+.creador {
+    position: absolute;
+    font-family: 'roboto', sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    top: 90%;
+    left: 5%;
+    font-size: 50px;
+}
